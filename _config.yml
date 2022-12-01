@@ -16,16 +16,21 @@
 title: Data and Code Availability Standard
 version: 1.0rc2
 date: December 1, 2022
+authors:
+  - name: Miklós Koren
+  - name: Lars Vilhuber
+  - name: Joan Llull
+  - mame: Marie Connolly
 journals: 
-  -   name: American Economic Review
-  -   name: "American Economic Journal: Applied Economics"
-  -   name: Canadian Journal of Economics
-  -   name: Econometrica
-  -   name: Economic Journal
-  -   name: Journal of the European Economic Association
-  -   name: Journal of Political Economy
-  -   name: "JPE: Micro"
-  -   name: Review of Economic Studies
+  - name: American Economic Review
+  - name: "American Economic Journal: Applied Economics"
+  - name: Canadian Journal of Economics
+  - name: Econometrica
+  - name: Economic Journal
+  - name: Journal of the European Economic Association
+  - name: Journal of Political Economy
+  - name: "JPE: Micro"
+  - name: Review of Economic Studies
 description: >- # this means to ignore newlines until "baseurl:"
   A standard for sharing research code and data, endorsed by leading journals in social sciences.
 baseurl: "" # the subpath of your site, e.g. /blog
