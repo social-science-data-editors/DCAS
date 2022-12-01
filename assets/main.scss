@@ -1,0 +1,9 @@
+@import "minima";
+
+.site-title::before {
+	content: url("/assets/img/logo.png");
+	display: inline-block;
+	position: relative;
+	width: 37px;
+	top: 5px;
+}
