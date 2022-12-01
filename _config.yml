@@ -18,9 +18,17 @@ version: 1.0rc2
 date: December 1, 2022
 authors:
   - name: Miklós Koren
+    url: https://koren.mk/
+    short: Koren, M.
   - name: Lars Vilhuber
+    url: https://www.ilr.cornell.edu/people/lars-vilhuber
+    short: L. Vilhuber
   - name: Joan Llull
-  - mame: Marie Connolly
+    url: https://joanllull.github.io/
+    short: J. Llull
+  - name: Marie Connolly
+    url: https://connolly.uqam.ca/index_en.html
+    short: M. Connolly
 journals: 
   - name: American Economic Review
   - name: "American Economic Journal: Applied Economics"

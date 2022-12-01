@@ -5,9 +5,9 @@ permalink: /about/
 ---
 [DCAS](/) is a standard for sharing research code and data, endorsed by [leading journals](/journals) in social sciences. It is maintained by the [Social Science Data Editors]().
 
-Authors: {% for author in site.authors %}{{ author.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+Authors: {% for author in site.authors %}{% unless forloop.first %}, {% endunless %}{% if forloop.last %} and {% endif %}[{{ author.name }}]({{ author.url }}){% endfor %}
 
 Current version: {{ site.version }} ({{ site.date }})
 
 > ## Please cite as
-> Koren, Miklós, Lars Vilhuber, Marie Connolly, and Joan Llull. 2022. "Data and Code Availability Standard [Version {{ site.version }}]." Website. http://datacodestandard.org
+> {% for author in site.authors %}{% unless forloop.first %}, {% endunless %}{% if forloop.last %} and {% endif %}{{ author.short }}{% endfor %}. 2022. "Data and Code Availability Standard [Version {{ site.version }}]." Website. {{ site.url }}
