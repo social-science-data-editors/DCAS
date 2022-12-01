@@ -3,16 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
+[DCAS](/) is a standard for sharing research code and data, endorsed by [leading journals](/journals) in social sciences.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Current version: 1.0rc2 (December 1, 2022)

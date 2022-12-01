@@ -15,22 +15,16 @@ layout: home
 | Metadata | 4 | Description of variables and their allowed values are made publicly accessible.
 | Citation | 5 | All data used in the paper are cited.
 | Data Availability Statement | 6 |A Data Availability Statement is provided with detailed enough information such that an independent researcher can replicate the steps needed to access the original data, including any limitations and the expected monetary and time cost of data access.
-|---|---|---|
-| Code | | |
-|---|---|---| 
+| **Code** | | |
 | Data transformation | 7 | Programs used to create any final and analysis data sets from raw data are included. | 
 | Analysis | 8 | Programs producing the computational results (estimation, simulation, model solution, visualization) are included. | 
 | Format | 9 | Code is provided in source format that can be directly interpreted or compiled by appropriate software. |
-|---|---|---| 
-| Supporting materials
-|---|---|---| 
+| **Supporting materials**
 | Instruments | 10 | If collecting original data through surveys or experiments, survey instruments or experiment instructions as well as details on subject selection are included. 
 | Ethics | 11 | If applicable, details are shared about ethics approval. 
 | Pre-registration | 12 | If applicable, pre-registration of the research is cited or provided. 
 | Documentation | 13 | A README document is included, containing a Data Availability Statement, listing all software and hardware dependencies and requirements (including the expected running time), and explaining how to reproduce the research results. The README follows the schema provided by the Social Science Data Editors’ template README.
-|---|---|---| 
-| Sharing 
-|---|---|---| 
+| **Sharing** 
 | Location | 14 | Data and programs are archived by the authors in the repositories deemed acceptable by the journal. 
 | License | 15 | A license specifies the terms of use of code and data in the replication package. The license allows for replication by researchers unconnected to the original parties. 
 | Omissions | 16 | The README clearly indicates any omission of the required parts of the package due to legal requirements or limitations or other approved agreements.
