@@ -5,8 +5,6 @@
 layout: home
 ---
 
-![](assets/img/logo.png)
-
 | Data | | |
 |---|---|---|
 | Raw data | 1 | Raw data used in the research (primary data collected by the author and secondary data not otherwise available) is made publicly accessible. |
