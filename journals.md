@@ -5,7 +5,7 @@ permalink: /journals/
 ---
 The following journals endorse the Data and Code Availability Standard.
 
-{% for journal in site.journals %}
+{% for journal in site.data.journals %}
 - {{ journal.name }}
 {% endfor %}
 

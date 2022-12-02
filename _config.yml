@@ -29,16 +29,6 @@ authors:
   - name: Marie Connolly
     url: https://connolly.uqam.ca/index_en.html
     short: M. Connolly
-journals: 
-  - name: American Economic Review
-  - name: "American Economic Journal: Applied Economics"
-  - name: Canadian Journal of Economics
-  - name: Econometrica
-  - name: Economic Journal
-  - name: Journal of the European Economic Association
-  - name: Journal of Political Economy
-  - name: "JPE: Micro"
-  - name: Review of Economic Studies
 description: >- # this means to ignore newlines until "baseurl:"
   A standard for sharing research code and data, endorsed by leading journals in social sciences.
 baseurl: "" # the subpath of your site, e.g. /blog
