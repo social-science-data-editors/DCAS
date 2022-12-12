@@ -1,10 +1,10 @@
 group,topic,description
-Data,Raw data,Raw data used in the research (primary data collected by the author and secondary data not otherwise available) is made publicly accessible.
-,Analysis data,Analysis data is provided as part of the replication package unless they can be fully reproduced from accessible data within a reasonable time frame.
-,Format,"The data files may be provided in any format compatible with any commonly used statistical package or software. Some journal require data files in open, non-proprietary formats."
+Data,Data Availability Statement,"A Data Availability Statement is provided with detailed enough information such that an independent researcher can replicate the steps needed to access the original data, including any limitations and the expected monetary and time cost of data access."
+,Raw data,"Raw data used in the research (primary data collected by the author and secondary data not otherwise available) is made publicly accessible, module Rule 1."
+,Analysis data,"Analysis data is provided as part of the replication package unless they can be fully reproduced from accessible data within a reasonable time frame, module Rule 1."
+,Format,"The data files may be provided in any format compatible with any commonly used statistical package or software. Some journals require data files in open, non-proprietary formats."
 ,Metadata,Description of variables and their allowed values are made publicly accessible.
 ,Citation,All data used in the paper are cited.
-,Data Availability Statement,"A Data Availability Statement is provided with detailed enough information such that an independent researcher can replicate the steps needed to access the original data, including any limitations and the expected monetary and time cost of data access."
 Code,Data transformation,Programs used to create any final and analysis data sets from raw data are included.
 ,Analysis,"Programs producing the computational results (estimation, simulation, model solution, visualization) are included."
 ,Format,Code is provided in source format that can be directly interpreted or compiled by appropriate software. 
