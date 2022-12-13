@@ -11,7 +11,7 @@ Code,Data transformation,Programs used to create any final and analysis data set
 Supporting materials,Instruments,"If collecting original data through surveys or experiments, survey instruments or experiment instructions as well as details on subject selection are included."
 ,Ethics,"If applicable, details are shared about ethics approval."
 ,Pre-registration,"If applicable, pre-registration of the research is identified and cited."
-,Documentation,"A README document is included, containing a Data Availability Statement, listing all software and hardware dependencies and requirements (including the expected run time), and explaining how to reproduce the research results. The README follows the schema provided by the Social Science Data Editors’ template README."
+,Documentation,"A README document is included, containing a Data Availability Statement, listing all software and hardware dependencies and requirements (including the expected run time), and explaining how to reproduce the research results. The README follows the schema provided by the [Social Science Data Editors’ template README](https://social-science-data-editors.github.io/template_README/)."
 Sharing,Location,Data and programs are archived by the authors in the repositories deemed acceptable by the journal.
 ,License,A license specifies the terms of use of code and data in the replication package. The license allows for replication by researchers unconnected to the original parties.
 ,Omissions,The README clearly indicates any omission of the required parts of the package due to legal requirements or limitations or other approved agreements.
