@@ -14,36 +14,43 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Data and Code Availability Standard
-version: 1.0rc2
-date: December 1, 2022
+version: 1.0
+date: December 15, 2022
+doi: 10.5281/zenodo.7436134
 authors:
   - name: Miklós Koren
     url: https://koren.mk/
     short: Koren, M.
-  - name: Lars Vilhuber
-    url: https://www.ilr.cornell.edu/people/lars-vilhuber
-    short: L. Vilhuber
-  - name: Joan Llull
-    url: https://joanllull.github.io/
-    short: J. Llull
   - name: Marie Connolly
     url: https://connolly.uqam.ca/index_en.html
     short: M. Connolly
+  - name: Joan Llull
+    url: https://joanllull.github.io/
+    short: J. Llull
+  - name: Lars Vilhuber
+    url: https://www.ilr.cornell.edu/people/lars-vilhuber
+    short: L. Vilhuber
 description: >- # this means to ignore newlines until "baseurl:"
   A standard for sharing research code and data, endorsed by leading journals in social sciences.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://codedatastandard.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://datacodestandard.org" # the base hostname & protocol for your site, e.g. http://example.com
 disclaimer: Journal policies may vary.
 
 # Build settings
 markdown: kramdown
 theme: minima
+future: true
+header_pages:
+  - about.md
+  - journals.md
 
 defaults:
   - scope:
       path: "assets/img"
     values:
       image: true
+plugins:
+ - jekyll-seo-tag
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

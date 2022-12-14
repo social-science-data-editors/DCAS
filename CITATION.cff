@@ -1,0 +1,25 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Data and Code Availability Standard
+message: >-
+  If you use this website, please cite it using the
+  metadata from this file.
+type: Website
+authors:
+  - given-names: Miklós
+    family-names: Koren
+  - given-names: Marie
+    family-names: Connolly
+  - given-names: Joan
+    family-names: Llull
+  - given-names: Lars
+    family-names: Vilhuber
+identifiers:
+  - type: url
+    value: 'https://datacodestandard.org'
+  - type: doi
+    value: 10.5281/zenodo.7436134
+version: '1.0'
+date-released: '2022-12-15'
