@@ -39,12 +39,18 @@ disclaimer: Journal policies may vary.
 # Build settings
 markdown: kramdown
 theme: minima
+future: true
+header_pages:
+  - about.md
+  - journals.md
 
 defaults:
   - scope:
       path: "assets/img"
     values:
       image: true
+plugins:
+ - jekyll-seo-tag
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
