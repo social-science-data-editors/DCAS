@@ -6,11 +6,13 @@
     <div class="footer-col-wrapper">
       <div class="footer-col">
         <ul class="contact-list">
-            <li class="p-name">{{ site.version | escape }} ({{ site.date }})</li>
-        </ul>
+            <li class="p-name"><a href="{{ site.url }}">{{ site.url }}</a></li>
+            <li class="p-name">Version {{ site.version | escape }} ({{ site.date }})</li>
+            <li class="p-name">DOI: <a href="https://doi.org/{{ site.doi }}">{{ site.doi }}</a></li>
+            <li class="p-name">{{ site.disclaimer | escape }}</li>
+          </ul>
       </div>
       <div class="footer-col">
-        <p>{{ site.disclaimer | escape }}</p>
       </div>
     </div>
 
