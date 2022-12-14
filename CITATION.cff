@@ -4,9 +4,9 @@
 cff-version: 1.2.0
 title: Data and Code Availability Standard
 message: >-
-  If you use this dataset, please cite it using the
+  If you use this website, please cite it using the
   metadata from this file.
-type: dataset
+type: Website
 authors:
   - given-names: Miklós
     family-names: Koren
