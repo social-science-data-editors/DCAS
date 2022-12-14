@@ -9,9 +9,9 @@ The following journals endorse the Data and Code Availability Standard.
 {% for journal in site.data.journals %}
 <!-- {{ forloop.index}}. -->
   <li>    {% if journal.url %}<a href="{{ journal.url }}">{% endif %}{{ journal.name }}{% if journal.url %}</a>{% endif %}
-          {% if journal.twitter %}<a href="https://twitter.com/{{ journal.twitter }}"><i class="fa-brands fa-twitter socialmediaicons" aria-hidden="true"></i>@{{ journal.twitter }}</a>{% endif %}
+          {% if journal.twitter %}<a href="https://twitter.com/{{ journal.twitter }}"><i class="fa-brands fa-twitter socialmediaicons" aria-hidden="true"></i></a>{% endif %}
           {% if journal.linkedin %}<a href="{{ journal.linkedin }}"><i class="fa-brands fa-linkedin socialmediaicons" aria-hidden="true"></i></a>{% endif %}
-          {% if journal.mastodon %}<a href="https://{{ journal.mastodonsrv }}/@{{ journal.mastodon }}"><i class="fa-brands fa-mastodon socialmediaicons" aria-hidden="true"></i>@{{ journal.mastodon}}@{{ journal.mastodonsrv }}</a>{% endif %}
+          {% if journal.mastodon %}<a href="https://{{ journal.mastodonsrv }}/@{{ journal.mastodon }}"><i class="fa-brands fa-mastodon socialmediaicons" aria-hidden="true"></i></a>{% endif %}
   </li>
 {% endfor %}
   </ol>
