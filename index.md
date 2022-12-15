@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
+image: https://datacodestandard.org/assets/img/logo-800.png
 ---
 
 {% for rule in site.data.rules %}

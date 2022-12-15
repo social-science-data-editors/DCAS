@@ -2,6 +2,7 @@
 layout: page
 title: Journals
 permalink: /journals/
+image: https://datacodestandard.org/assets/img/logo-800.png
 ---
 The following journals endorse the Data and Code Availability Standard.
 

@@ -4,5 +4,6 @@
 
 layout: home
 list_title: Announcements
+image: https://datacodestandard.org/assets/img/logo-800.png
 ---
 

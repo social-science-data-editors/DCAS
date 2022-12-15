@@ -3,6 +3,7 @@ layout: home
 title: About
 list_title: Announcements
 permalink: /about/
+image: https://datacodestandard.org/assets/img/logo-800.png
 ---
 [DCAS](/) is a standard for sharing research code and data, endorsed by [leading journals](/journals) in social sciences. It is maintained by the [Social Science Data Editors]().
 
