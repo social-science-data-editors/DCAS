@@ -35,8 +35,6 @@ compatible with DCAS.
 ```
 ### HTML Code
 
-Due to the very long image, we suggest copying the source code from the example above, as rendered on this site.
-
 ```html
 <img src="{{ site.url }}/assets/img/DCAS-1.0.png"/> The [**JOURNAL NAME**]
 endorses DCAS, the <a href="https://datacodestandard.org/">Data and Code
