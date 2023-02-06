@@ -49,4 +49,3 @@ Use any of these icons. PNG works on all sites. SVG should work on most sites
 | PNG version | SVG version |
 |---|---|
 | ![DCAS icon small](/assets/img/DCAS-1.0.png) | ![DCAS icon small](/assets/img/DCAS-1.0.svg) |
-| ![DCAS icon large](/assets/img/DCAS-1.0-large.png) | ![DCAS icon small](/assets/img/DCAS-1.0-large.svg) |
