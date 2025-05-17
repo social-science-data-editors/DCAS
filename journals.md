@@ -19,11 +19,14 @@ The following journals endorse the Data and Code Availability Standard.
 
 Individual journal policies may differ slightly. To ensure full compliance, check the policies and submission guidelines of the journal.
 
-## Denoting Endorsement and Compliance
+## Denoting Endorsement and Compliance {#endorsement}
 
 Endorsing journals can signal endorsement and compliance on their website by adding the following to the page or section describing the data and code availability policy:
 
 > ![](/assets/img/DCAS-1.0.png) The [**JOURNAL NAME**] endorses DCAS, the [Data and Code Availability Standard](https://datacodestandard.org/) [v{{ site.version }}], and its data and code availability policy is compatible with DCAS.
+
+
+Inclusion of a journal into the above list of endorsers is encouraged and can be achieved via pull request against the [repository](https://github.com/social-science-data-editors/DCAS) of this website.
 
 ### Markdown code
 
@@ -49,3 +52,4 @@ Use any of these icons. PNG works on all sites. SVG should work on most sites
 | PNG version | SVG version |
 |---|---|
 | ![DCAS icon small](/assets/img/DCAS-1.0.png) | ![DCAS icon small](/assets/img/DCAS-1.0.svg) |
+
