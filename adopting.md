@@ -1,10 +1,18 @@
 ---
 layout: page
-title: How to endorse DCAS
+title: How to adopt and endorse DCAS
+list_title: Adopting
+permalink: /adopting/
 image: https://datacodestandard.org/assets/img/logo-800.png
 ---
 
-The [Journal](/journals/) page lists those journals that have explicitly endorsed this standard. This page describes how to record endorsement on this site, and how to signal endorsement on the journal website. 
+The [Journal](/journals/) page lists those journals that have explicitly endorsed this standard. This page describes how to adopt DCAS, record endorsement on this site, and how to signal endorsement on the journal website. 
+
+## Adopting DCAS
+
+Adopting DCAS is easy: Download the Word, [CSV](https://github.com/social-science-data-editors/DCAS/blob/main/_data/rules.csv), or [HTML](/) versions of the standard, adapt it to your journal's needs, and post it on your website. That's it. 
+
+To make it even better, read on.
 
 ## Denoting Endorsement and Compliance {#endorsement}
 
