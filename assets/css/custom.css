@@ -1,7 +1,7 @@
-/* Custom footer column for 30% width */
+/* Custom footer column for middle column - narrower to prevent wrapping */
 .footer-col-4 {
-  width: -webkit-calc(30% - (30px / 2));
-  width: calc(30% - (30px / 2));
+  width: -webkit-calc(28% - (30px / 2));
+  width: calc(28% - (30px / 2));
 }
 
 @media screen and (max-width: 800px) {
