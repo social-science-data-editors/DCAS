@@ -2,8 +2,8 @@ services:
   jekyll:
     build: .
     ports:
-      - "4000:4000"
-      - "35729:35729"  # LiveReload port
+      - "4001:4000"
+      - "35730:35729"  # LiveReload port
     volumes:
       - .:/site
       - bundle_cache:/usr/local/bundle
