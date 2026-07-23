@@ -1,6 +1,7 @@
 ---
 layout: page
 title: How to adopt and endorse DCAS
+menu_title: Adopting
 list_title: Adopting
 permalink: /adopting/
 image: https://datacodestandard.org/assets/img/logo-800.png
