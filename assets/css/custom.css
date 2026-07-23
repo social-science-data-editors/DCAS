@@ -1,31 +1,32 @@
 /* Flexbox-based footer layout for robust column spacing */
-.footer-col-wrapper {
-  display: flex;
+.site-footer .footer-col-wrapper {
+  display: flex !important;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  margin-left: 0;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
-.footer-col {
-  float: none;
+.site-footer .footer-col {
+  float: none !important;
 }
 
-.footer-col-wrapper .footer-col-1 {
-  width: 35%;
+.site-footer .footer-col-wrapper .footer-col-1 {
+  width: 35% !important;
 }
 
-.footer-col-4 {
-  width: 25%;
+.site-footer .footer-col-4 {
+  width: 25% !important;
 }
 
 @media screen and (max-width: 800px) {
-  .footer-col-wrapper {
+  .site-footer .footer-col-wrapper {
     flex-direction: column;
   }
   
-  .footer-col-wrapper .footer-col-1,
-  .footer-col-4 {
-    width: 100%;
+  .site-footer .footer-col-wrapper .footer-col-1,
+  .site-footer .footer-col-4 {
+    width: 100% !important;
   }
 }
