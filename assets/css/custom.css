@@ -1,12 +1,31 @@
-/* Custom footer column for middle column - narrower to prevent wrapping */
+/* Flexbox-based footer layout for robust column spacing */
+.footer-col-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 0;
+}
+
+.footer-col {
+  float: none;
+}
+
+.footer-col-wrapper .footer-col-1 {
+  width: 35%;
+}
+
 .footer-col-4 {
-  width: -webkit-calc(28% - (30px / 2));
-  width: calc(28% - (30px / 2));
+  width: 25%;
 }
 
 @media screen and (max-width: 800px) {
+  .footer-col-wrapper {
+    flex-direction: column;
+  }
+  
+  .footer-col-wrapper .footer-col-1,
   .footer-col-4 {
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2));
+    width: 100%;
   }
 }
