@@ -46,6 +46,7 @@ future: true
 header_pages:
   - about.md
   - journals.md
+  - adopting.md
 
 defaults:
   - scope:

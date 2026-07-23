@@ -21,4 +21,4 @@ The following journals endorse the Data and Code Availability Standard.
 
 Individual journal policies may differ slightly. To ensure full compliance, check the policies and submission guidelines of the journal.
 
-To request inclusion and to learn how to show endorsement of DCAS, see [How to endorse DCAS](how-to-endorse.md).
+To request inclusion and to learn how to show endorsement of DCAS, see [How to adopt and endorse DCAS](/adopting/).
