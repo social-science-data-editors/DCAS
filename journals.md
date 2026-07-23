@@ -14,6 +14,7 @@ The following journals endorse the Data and Code Availability Standard.
           {% if journal.twitter %}<a href="https://twitter.com/{{ journal.twitter }}"><i class="fa-brands fa-twitter socialmediaicons" aria-hidden="true"></i></a>{% endif %}
           {% if journal.linkedin %}<a href="{{ journal.linkedin }}"><i class="fa-brands fa-linkedin socialmediaicons" aria-hidden="true"></i></a>{% endif %}
           {% if journal.mastodon %}<a href="https://{{ journal.mastodonsrv }}/@{{ journal.mastodon }}"><i class="fa-brands fa-mastodon socialmediaicons" aria-hidden="true"></i></a>{% endif %}
+          {% if journal.bluesky %}<a href="https://bsky.app/profile/{{ journal.bluesky }}"><i class="fa-brands fa-bluesky socialmediaicons" aria-hidden="true"></i></a>{% endif %}
   </li>
 {% endfor %}
   </ol>

@@ -51,5 +51,6 @@ To add your journal to the list of endorsers on this site, please submit a pull 
 - `mastodon`: the journal's Mastodon handle (optional)
 - `mastodonsrv`: the Mastodon server for the journal's handle (optional)
 - `linkedin`: URL of the journal's LinkedIn profile (optional)
+- `bluesky`: the journal's Bluesky handle (e.g., handle.bsky.social) (optional)
 
 The pull request will be reviewed and merged by the DCAS maintainers. Once merged, the journal will appear on the [Journal](/journals/) page within 24 hours.
