@@ -1,0 +1,12 @@
+/* Custom footer column for 30% width */
+.footer-col-4 {
+  width: -webkit-calc(30% - (30px / 2));
+  width: calc(30% - (30px / 2));
+}
+
+@media screen and (max-width: 800px) {
+  .footer-col-4 {
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2));
+  }
+}
