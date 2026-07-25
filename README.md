@@ -14,3 +14,17 @@ See [https://datacodestandard.org/](https://datacodestandard.org/).
 2. Create fork of this repository.
 3. In your fork, edit the file [`/_data/journals.csv`] by adding a new row with your journal's details.
 4. File a pull request from your fork requesting inclusion.
+
+## How to locally run this website
+
+Using a docker client:
+
+```
+docker compose up --build
+```
+
+Then open http://localhost:4001 in browser. Livereload port maps to 35730 (host) → 35729 (container). To stop do ctrl-C first, or in another terminal execute:
+
+```
+docker compose down
+```
