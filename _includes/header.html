@@ -4,7 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}"> <img src="{{ "/assets/img/logo.png" | absolute_url }}" width="33%"/></a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}"> <img src="{{ "/assets/img/logo.png" | relative_url }}" width="33%"/></a>
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}"> {{ site.title | escape }}</a>
 
     {%- if titles_size > 0 -%}
@@ -22,9 +22,12 @@
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.menu_title | default: my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
+          <a class="page-link" href="https://social-science-data-editors.github.io/" title="Back to SSDE main site">
+            <img src="{{ "/assets/img/ssde-logo-only.png" | relative_url }}" alt="SSDE" style="height: 20px; vertical-align: middle;">
+          </a>
         </div>
       </nav>
     {%- endif -%}

@@ -1,0 +1,32 @@
+/* Flexbox-based footer layout for robust column spacing */
+.site-footer .footer-col-wrapper {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.site-footer .footer-col {
+  float: none !important;
+}
+
+.site-footer .footer-col-wrapper .footer-col-1 {
+  width: 35% !important;
+}
+
+.site-footer .footer-col-4 {
+  width: 25% !important;
+}
+
+@media screen and (max-width: 800px) {
+  .site-footer .footer-col-wrapper {
+    flex-direction: column;
+  }
+  
+  .site-footer .footer-col-wrapper .footer-col-1,
+  .site-footer .footer-col-4 {
+    width: 100% !important;
+  }
+}
